@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/maochinn/Lib/FLTK/fltk-1.3.5-source.tar/fltk-1.3.5-source/fltk-1.3.5/test/CMakeLists.txt
+  fonts.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\test\fonts.cxx(104,24): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\test\fonts.cxx(108,28): warning C4244: '=': 將 'ulong' 轉換為 'char'，由於類型不同，可能導致資料遺失
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\test\fonts.cxx(109,16): warning C4244: '=': 將 'ulong' 轉換為 'char'，由於類型不同，可能導致資料遺失
+  fonts.vcxproj -> D:\maochinn\Lib\FLTK\build\bin\examples\Release\fonts.exe

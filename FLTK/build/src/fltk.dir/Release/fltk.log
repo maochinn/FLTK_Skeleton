@@ -1,0 +1,164 @@
+﻿  Fl.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\src\Fl_win32.cxx(2742,43): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\src\Fl_win32.cxx(2769,27): warning C4244: 'return': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\src\Fl_win32.cxx(2808,71): warning C4244: '引數': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  Fl_Adjuster.cxx
+  Fl_Bitmap.cxx
+  Fl_Box.cxx
+  Fl_Browser.cxx
+  Fl_Browser_.cxx
+  Fl_Browser_load.cxx
+  Fl_Button.cxx
+  Fl_Chart.cxx
+  Fl_Check_Browser.cxx
+  Fl_Check_Button.cxx
+  Fl_Choice.cxx
+  Fl_Clock.cxx
+  Fl_Color_Chooser.cxx
+  Fl_Copy_Surface.cxx
+  Fl_Counter.cxx
+  Fl_Device.cxx
+  Fl_Dial.cxx
+  Fl_Double_Window.cxx
+  Fl_File_Browser.cxx
+  正在產生程式碼...
+  正在編譯...
+  Fl_File_Chooser.cxx
+  Fl_File_Chooser2.cxx
+  Fl_File_Icon.cxx
+  Fl_File_Input.cxx
+  Fl_Group.cxx
+  Fl_Help_View.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\src\Fl_win32.cxx(2821,51): warning C4244: '引數': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  Fl_Image.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\src\Fl_Help_View.cxx(1142,60): warning C4244: '+=': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\src\Fl_Image.cxx(809,13): warning C4244: '=': 將 'int' 轉換為 'FLOAT'，由於類型不同，可能導致資料遺失
+  Fl_Image_Surface.cxx
+  Fl_Input.cxx
+  Fl_Input_.cxx
+  Fl_Light_Button.cxx
+  Fl_Menu.cxx
+  Fl_Menu_.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\src\Fl_Image.cxx(810,13): warning C4244: '=': 將 'int' 轉換為 'FLOAT'，由於類型不同，可能導致資料遺失
+  Fl_Menu_Bar.cxx
+  Fl_Menu_Button.cxx
+  Fl_Menu_Window.cxx
+  Fl_Menu_add.cxx
+  Fl_Menu_global.cxx
+  Fl_Multi_Label.cxx
+  Fl_Native_File_Chooser.cxx
+  正在產生程式碼...
+  正在編譯...
+  Fl_Overlay_Window.cxx
+  Fl_Pack.cxx
+  Fl_Paged_Device.cxx
+  Fl_Pixmap.cxx
+  Fl_Positioner.cxx
+  Fl_PostScript.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\src\Fl_Menu_.cxx(84,32): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+  Fl_Preferences.cxx
+  Fl_Printer.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL/Fl_PostScript.H(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\src\Fl_GDI_Printer.cxx(225,17): warning C4244: '=': 將 'double' 轉換為 'FLOAT'，由於類型不同，可能導致資料遺失
+  Fl_Progress.cxx
+  Fl_Repeat_Button.cxx
+  Fl_Return_Button.cxx
+  Fl_Roller.cxx
+  Fl_Round_Button.cxx
+  Fl_Scroll.cxx
+  Fl_Scrollbar.cxx
+  Fl_Shared_Image.cxx
+  Fl_Single_Window.cxx
+  Fl_Slider.cxx
+  Fl_Table.cxx
+  Fl_Table_Row.cxx
+  正在產生程式碼...
+  正在編譯...
+  Fl_Tabs.cxx
+  Fl_Text_Buffer.cxx
+  Fl_Text_Display.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\src\Fl_GDI_Printer.cxx(226,17): warning C4244: '=': 將 'double' 轉換為 'FLOAT'，由於類型不同，可能導致資料遺失
+  Fl_Text_Editor.cxx
+  Fl_Tile.cxx
+  Fl_Tiled_Image.cxx
+  Fl_Tooltip.cxx
+  Fl_Tree.cxx
+  Fl_Tree_Item.cxx
+  Fl_Tree_Item_Array.cxx
+  Fl_Tree_Prefs.cxx
+  Fl_Valuator.cxx
+  Fl_Value_Input.cxx
+  Fl_Value_Output.cxx
+  Fl_Value_Slider.cxx
+  Fl_Widget.cxx
+  Fl_Window.cxx
+  Fl_Window_fullscreen.cxx
+  Fl_Window_hotspot.cxx
+  Fl_Window_iconize.cxx
+  正在產生程式碼...
+  正在編譯...
+  Fl_Window_shape.cxx
+  Fl_Wizard.cxx
+  Fl_XBM_Image.cxx
+  Fl_XPM_Image.cxx
+  Fl_abort.cxx
+  Fl_add_idle.cxx
+  Fl_arg.cxx
+  Fl_compose.cxx
+  Fl_display.cxx
+  Fl_get_key.cxx
+  Fl_get_system_colors.cxx
+  Fl_grab.cxx
+  Fl_lock.cxx
+  Fl_own_colormap.cxx
+  Fl_visual.cxx
+  fl_arc.cxx
+  fl_arci.cxx
+  fl_ask.cxx
+  fl_boxtype.cxx
+  fl_color.cxx
+  正在產生程式碼...
+  正在編譯...
+  fl_cursor.cxx
+  fl_curve.cxx
+  fl_diamond_box.cxx
+  fl_dnd.cxx
+  fl_draw.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\src\Fl_Text_Display.cxx(1780,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  fl_draw_image.cxx
+  fl_draw_pixmap.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\src\fl_draw.cxx(82,36): warning C4244: '+=': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  fl_encoding_latin1.cxx
+  fl_encoding_mac_roman.cxx
+  fl_engraved_label.cxx
+  fl_file_dir.cxx
+  fl_font.cxx
+  fl_gleam.cxx
+  fl_gtk.cxx
+  fl_labeltype.cxx
+  fl_line_style.cxx
+  fl_oval_box.cxx
+  fl_overlay.cxx
+  fl_plastic.cxx
+  fl_read_image.cxx
+  正在產生程式碼...
+  正在編譯...
+  fl_rect.cxx
+  fl_round_box.cxx
+  fl_rounded_box.cxx
+  fl_scroll_area.cxx
+  fl_set_font.cxx
+  fl_set_fonts.cxx
+  fl_shadow_box.cxx
+  fl_shortcut.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\src\fl_draw_pixmap.cxx(131,54): warning C4334: '<<': 32 位元位移的結果已隱含轉換為 64 位元 (是否原來就是要進行 64 位元位移?
+  fl_show_colormap.cxx
+  fl_symbols.cxx
+  fl_vertex.cxx
+  ps_image.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\src\fl_shortcut.cxx(217,24): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL/Fl_PostScript.H(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  screen_xywh.cxx
+  正在產生程式碼...
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\src\ps_image.cxx(78,29): warning C4244: '=': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  fltk.vcxproj -> D:\maochinn\Lib\FLTK\build\lib\Release\fltk.lib

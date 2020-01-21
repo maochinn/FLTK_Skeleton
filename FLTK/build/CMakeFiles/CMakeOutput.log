@@ -1,0 +1,312 @@
+The system is: Windows - 10.0.17763 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+已經開始建置於 2020/1/20 下午 04:07:56。
+節點 1 (預設目標) 上的專案 "D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CompilerIdC\CompilerIdC.vcxproj"。
+PrepareForBuild:
+  正在建立目錄 "Debug\"。
+  正在建立目錄 "Debug\CompilerIdC.tlog\"。
+InitializeBuildStatus:
+  由於指定了 "AlwaysCreate"，因此正在建立 "Debug\CompilerIdC.tlog\unsuccessfulbuild"。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  正在刪除檔案 "Debug\CompilerIdC.tlog\unsuccessfulbuild"。
+  正在變更時間戳記 "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate"。
+專案 "D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CompilerIdC\CompilerIdC.vcxproj" (預設目標) 建置完成。
+
+建置成功。
+    0 個警告
+    0 個錯誤
+
+經過時間 00:00:01.18
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/maochinn/Lib/FLTK/build/CMakeFiles/3.15.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+已經開始建置於 2020/1/20 下午 04:07:58。
+節點 1 (預設目標) 上的專案 "D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CompilerIdCXX\CompilerIdCXX.vcxproj"。
+PrepareForBuild:
+  正在建立目錄 "Debug\"。
+  正在建立目錄 "Debug\CompilerIdCXX.tlog\"。
+InitializeBuildStatus:
+  由於指定了 "AlwaysCreate"，因此正在建立 "Debug\CompilerIdCXX.tlog\unsuccessfulbuild"。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  正在刪除檔案 "Debug\CompilerIdCXX.tlog\unsuccessfulbuild"。
+  正在變更時間戳記 "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate"。
+專案 "D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (預設目標) 建置完成。
+
+建置成功。
+    0 個警告
+    0 個錯誤
+
+經過時間 00:00:00.88
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/maochinn/Lib/FLTK/build/CMakeFiles/3.15.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5ee45.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  testCCompiler.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ee45.dir\Debug\\" /Fd"cmTC_5ee45.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cmTC_5ee45.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_5ee45.exe
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_08e63.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  CMakeCCompilerABI.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08e63.dir\Debug\\" /Fd"cmTC_08e63.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\install\CMake\share\cmake-3.15\Modules\CMakeCCompilerABI.c"
+  cmTC_08e63.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_08e63.exe
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bfa11.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  testCXXCompiler.cxx
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bfa11.dir\Debug\\" /Fd"cmTC_bfa11.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cmTC_bfa11.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_bfa11.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_54b05.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  CMakeCXXCompilerABI.cpp
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_54b05.dir\Debug\\" /Fd"cmTC_54b05.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\install\CMake\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_54b05.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_54b05.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bbd23.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbd23.dir\Debug\\" /Fd"cmTC_bbd23.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  cmTC_bbd23.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_bbd23.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_dbed9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dbed9.dir\Debug\\" /Fd"cmTC_dbed9.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  cmTC_dbed9.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_dbed9.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_735cd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_735cd.dir\Debug\\" /Fd"cmTC_735cd.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  cmTC_735cd.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_735cd.exe
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8a389.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  CMAKE_SIZEOF_UNSIGNED_SHORT.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a389.dir\Debug\\" /Fd"cmTC_8a389.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c
+  cmTC_8a389.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_8a389.exe
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7fe84.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  TestEndianess.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7fe84.dir\Debug\\" /Fd"cmTC_7fe84.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\TestEndianess.c
+  cmTC_7fe84.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_7fe84.exe
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of short passed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9da69.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  SIZEOF_SHORT.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9da69.dir\Debug\\" /Fd"cmTC_9da69.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c
+  cmTC_9da69.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_9da69.exe
+
+
+
+Determining size of int passed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6da63.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  SIZEOF_INT.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6da63.dir\Debug\\" /Fd"cmTC_6da63.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c
+  cmTC_6da63.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_6da63.exe
+
+
+
+Determining size of long passed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e5b4b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  SIZEOF_LONG.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5b4b.dir\Debug\\" /Fd"cmTC_e5b4b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c
+  cmTC_e5b4b.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_e5b4b.exe
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_17b29.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  HAVE_LONG_LONG.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17b29.dir\Debug\\" /Fd"cmTC_17b29.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\HAVE_LONG_LONG.c
+  cmTC_17b29.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_17b29.exe
+
+
+
+Determining if the function localeconv exists passed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8887e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=localeconv /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8887e.dir\Debug\\" /Fd"cmTC_8887e.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  cmTC_8887e.vcxproj -> D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_8887e.exe
+
+
+

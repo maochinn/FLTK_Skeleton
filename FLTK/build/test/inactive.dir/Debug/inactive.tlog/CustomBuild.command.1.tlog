@@ -1,0 +1,20 @@
+^D:\MAOCHINN\LIB\FLTK\FLTK-1.3.5-SOURCE.TAR\FLTK-1.3.5-SOURCE\FLTK-1.3.5\TEST\INACTIVE.FL
+setlocal
+..\bin\Debug\fluid.exe -c D:/maochinn/Lib/FLTK/fltk-1.3.5-source.tar/fltk-1.3.5-source/fltk-1.3.5/test/inactive.fl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\MAOCHINN\LIB\FLTK\FLTK-1.3.5-SOURCE.TAR\FLTK-1.3.5-SOURCE\FLTK-1.3.5\TEST\CMAKELISTS.TXT
+setlocal
+D:\install\CMake\bin\cmake.exe -SD:/maochinn/Lib/FLTK/fltk-1.3.5-source.tar/fltk-1.3.5-source/fltk-1.3.5 -BD:/maochinn/Lib/FLTK/build --check-stamp-file D:/maochinn/Lib/FLTK/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

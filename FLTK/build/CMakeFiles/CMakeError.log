@@ -1,0 +1,120 @@
+Determining if the function dlsym exists failed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d5c69.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=dlsym /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d5c69.dir\Debug\\" /Fd"cmTC_d5c69.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 無法解析的外部符號 dlsym 在函式 main 中被參考 [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_d5c69.vcxproj]
+D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_d5c69.exe : fatal error LNK1120: 1 個無法解析的外部符號 [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_d5c69.vcxproj]
+
+
+
+Determining if the function scandir exists failed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_44662.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=scandir /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44662.dir\Debug\\" /Fd"cmTC_44662.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 無法解析的外部符號 scandir 在函式 main 中被參考 [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_44662.vcxproj]
+D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_44662.exe : fatal error LNK1120: 1 個無法解析的外部符號 [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_44662.vcxproj]
+
+
+
+Determining if the function snprintf exists failed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4b55d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=snprintf /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4b55d.dir\Debug\\" /Fd"cmTC_4b55d.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 無法解析的外部符號 snprintf 在函式 main 中被參考 [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_4b55d.vcxproj]
+D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_4b55d.exe : fatal error LNK1120: 1 個無法解析的外部符號 [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_4b55d.vcxproj]
+
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c56b0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlcat /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c56b0.dir\Debug\\" /Fd"cmTC_c56b0.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 無法解析的外部符號 strlcat 在函式 main 中被參考 [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_c56b0.vcxproj]
+D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_c56b0.exe : fatal error LNK1120: 1 個無法解析的外部符號 [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_c56b0.vcxproj]
+
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a2186.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strlcpy /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2186.dir\Debug\\" /Fd"cmTC_a2186.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 無法解析的外部符號 strlcpy 在函式 main 中被參考 [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_a2186.vcxproj]
+D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_a2186.exe : fatal error LNK1120: 1 個無法解析的外部符號 [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_a2186.vcxproj]
+
+
+
+Determining if the function vsnprintf exists failed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6fbac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=vsnprintf /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6fbac.dir\Debug\\" /Fd"cmTC_6fbac.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 無法解析的外部符號 vsnprintf 在函式 main 中被參考 [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_6fbac.vcxproj]
+MSVCRTD.lib(vsnprintf.obj) : error LNK2001: 無法解析的外部符號 vsnprintf [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_6fbac.vcxproj]
+MSVCRTD.lib(vsnprintf.obj) : error LNK2001: 無法解析的外部符號 _vsnprintf [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_6fbac.vcxproj]
+D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\Debug\cmTC_6fbac.exe : fatal error LNK1120: 2 個無法解析的外部符號 [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_6fbac.vcxproj]
+
+
+
+Determining if the function glXGetProcAddressARB exists failed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1b99b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /I\GL /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=glXGetProcAddressARB /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1b99b.dir\Debug\\" /Fd"cmTC_1b99b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: 無法開啟檔案 'GLU.lib' [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_1b99b.vcxproj]
+
+
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/maochinn/Lib/FLTK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ee76a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine for .NET Framework 16.3.0+0f4c62fea 版
+Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.23.28105.4 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+  cl /c /I\GL /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ee76a.dir\Debug\\" /Fd"cmTC_ee76a.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 無法開啟包含檔案: 'pthread.h': No such file or directory [D:\maochinn\Lib\FLTK\build\CMakeFiles\CMakeTmp\cmTC_ee76a.vcxproj]
+
+
+

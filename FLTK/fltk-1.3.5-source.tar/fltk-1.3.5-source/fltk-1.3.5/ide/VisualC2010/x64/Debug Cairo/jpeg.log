@@ -1,0 +1,55 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (x64\Debug Cairo\) contains files shared from another project (fltkzlib.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  jcapimin.c
+  jcapistd.c
+  jccoefct.c
+  jccolor.c
+  jcdctmgr.c
+  jchuff.c
+  jcinit.c
+  jcmainct.c
+  jcmarker.c
+  jcmaster.c
+  jcomapi.c
+  jcparam.c
+  jaricom.c
+  jcarith.c
+  jdarith.c
+  jcprepct.c
+  jcsample.c
+  jctrans.c
+  jdapimin.c
+  jdapistd.c
+  正在產生程式碼...
+  正在編譯...
+  jdatadst.c
+  jdatasrc.c
+  jdcoefct.c
+  jdcolor.c
+  jddctmgr.c
+  jdhuff.c
+  jdinput.c
+  jdmainct.c
+  jdmarker.c
+  jdmaster.c
+  jdmerge.c
+  jdpostct.c
+  jdsample.c
+  jdtrans.c
+  jerror.c
+  jfdctflt.c
+  jfdctfst.c
+  jfdctint.c
+  jidctflt.c
+  jidctfst.c
+  正在產生程式碼...
+  正在編譯...
+  jidctint.c
+  jmemmgr.c
+  jmemnobs.c
+  jquant1.c
+  jquant2.c
+  jutils.c
+  正在產生程式碼...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1448,5): warning MSB8012: TargetPath(D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\ide\VisualC2010\x64\Debug Cairo\fltkjpeg.lib) does not match the Library's OutputFile property value (D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\lib\fltkjpegd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1450,5): warning MSB8012: TargetName(fltkjpeg) does not match the Library's OutputFile property value (fltkjpegd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  jpeg.vcxproj -> D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\ide\VisualC2010\x64\Debug Cairo\fltkjpeg.lib

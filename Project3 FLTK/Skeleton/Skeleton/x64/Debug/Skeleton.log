@@ -1,0 +1,25 @@
+﻿  CallBacks.cpp
+D:\maochinn\NTUST\CG\Project3 FLTK\Skeleton\Skeleton\Codes\CallBacks.cpp(182,12): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\maochinn\NTUST\CG\Project3 FLTK\Skeleton\Skeleton\Codes\CallBacks.cpp(183,12): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\maochinn\NTUST\CG\Project3 FLTK\Skeleton\Skeleton\Codes\CallBacks.cpp(221,12): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  ControlPoint.cpp
+D:\maochinn\NTUST\CG\Project3 FLTK\Skeleton\Skeleton\Codes\CallBacks.cpp(222,12): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\maochinn\NTUST\CG\Project3 FLTK\Skeleton\Skeleton\Codes\ControlPoint.cpp(80,40): warning C4244: '引數': 將 'double' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+  main.cpp
+  Track.cpp
+D:\maochinn\NTUST\CG\Project3 FLTK\Skeleton\Skeleton\Codes\ControlPoint.cpp(82,39): warning C4244: '引數': 將 'double' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+D:\maochinn\NTUST\CG\Project3 FLTK\Skeleton\Skeleton\Codes\Track.cpp(112,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 請參閱 'fopen' 的宣告
+D:\maochinn\NTUST\CG\Project3 FLTK\Skeleton\Skeleton\Codes\Track.cpp(171,14): warning C4477: 'fprintf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'unsigned __int64'
+D:\maochinn\NTUST\CG\Project3 FLTK\Skeleton\Skeleton\Codes\Track.cpp(171,14): message : 請考慮在格式字串中使用 '%zd'
+D:\maochinn\NTUST\CG\Project3 FLTK\Skeleton\Skeleton\Codes\Track.cpp(167,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  TrainView.cpp
+  TrainWindow.cpp
+  3DUtils.cpp
+  ArcBallCam.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 請參閱 'fopen' 的宣告
+  Pnt3f.cpp
+D:\maochinn\NTUST\CG\Project3 FLTK\Skeleton\Skeleton\Codes\Utilities\ArcBallCam.cpp(303,12): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  正在產生程式碼...
+D:\maochinn\NTUST\CG\Project3 FLTK\Skeleton\Skeleton\Codes\Utilities\Pnt3f.cpp(78,11): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  Skeleton.vcxproj -> D:\maochinn\NTUST\CG\Project3 FLTK\Skeleton\x64\Debug\Skeleton.exe

@@ -1,0 +1,60 @@
+﻿  Building Custom Rule D:/maochinn/Lib/FLTK/fltk-1.3.5-source.tar/fltk-1.3.5-source/fltk-1.3.5/fluid/CMakeLists.txt
+  CodeEditor.cxx
+  Fl_Function_Type.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\CodeEditor.cxx(366,25): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+  Fl_Group_Type.cxx
+  Fl_Menu_Type.cxx
+  Fl_Type.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\Fl_Function_Type.cxx(500,18): warning C4244: '正在初始化': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  ExternalCodeEditor_UNIX.cxx
+  ExternalCodeEditor_WIN32.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\Fl_Type.cxx(678,15): warning C4244: '=': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\ExternalCodeEditor_WIN32.cxx(242,33): warning C4244: '引數': 將 'LONGLONG' 轉換為 'DWORD'，由於類型不同，可能導致資料遺失
+  Fl_Widget_Type.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\ExternalCodeEditor_WIN32.cxx(374,28): warning C4267: '正在初始化': 將 'size_t' 轉換為 'DWORD'，資料可能遺失
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\Fl_Widget_Type.cxx(383,43): warning C4267: '=': 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
+  Fl_Window_Type.cxx
+  Fluid_Image.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\Fl_Widget_Type.cxx(1348,9): warning C4244: '正在初始化': 將 'fl_intptr_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\Fluid_Image.cxx(58,57): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\Fluid_Image.cxx(71,61): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+  about_panel.cxx
+  align_widget.cxx
+  alignment_panel.cxx
+  code.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\Fluid_Image.cxx(110,32): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+  factory.cxx
+  file.cxx
+  fluid.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\code.cxx(222,61): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\fluid.cxx(138,1): warning C4996: '_chdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _chdir. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\direct.h(77): message : 請參閱 '_chdir' 的宣告
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\fluid.cxx(145,1): warning C4996: '_chdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _chdir. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\direct.h(77): message : 請參閱 '_chdir' 的宣告
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\fluid.cxx(309,1): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _mkdir. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\direct.h(111): message : 請參閱 'mkdir' 的宣告
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\fluid.cxx(679,1): warning C4996: '_unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(374): message : 請參閱 '_unlink' 的宣告
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\fluid.cxx(872,1): warning C4996: '_unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(374): message : 請參閱 '_unlink' 的宣告
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\fluid.cxx(1362,48): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\fluid.cxx(1505,1): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2459): message : 請參閱 'fileno' 的宣告
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\fluid.cxx(1535,1): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2459): message : 請參閱 'fileno' 的宣告
+  function_panel.cxx
+  template_panel.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\fluid.cxx(1787,40): warning C4267: '+=': 將 'size_t' 轉換為 'int'，資料可能遺失
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\template_panel.cxx(205,1): warning C4996: '_unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  undo.cxx
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(374): message : 請參閱 '_unlink' 的宣告
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\undo.cxx(162,1): warning C4996: '_unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  正在產生程式碼...
+  正在編譯...
+  widget_panel.cxx
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(374): message : 請參閱 '_unlink' 的宣告
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\widget_panel.cxx(29,54): warning C4312: '類型轉換': 將 'unsigned int' 轉換為較大的 'void *'
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\widget_panel.cxx(39,56): warning C4312: '類型轉換': 將 'unsigned int' 轉換為較大的 'void *'
+  正在產生程式碼...
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fluid\widget_panel.cxx(49,56): warning C4312: '類型轉換': 將 'unsigned int' 轉換為較大的 'void *'
+  fluid.vcxproj -> D:\maochinn\Lib\FLTK\build\bin\Release\fluid.exe

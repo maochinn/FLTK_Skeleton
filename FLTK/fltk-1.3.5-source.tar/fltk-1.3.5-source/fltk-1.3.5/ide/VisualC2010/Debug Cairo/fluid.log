@@ -1,0 +1,42 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug Cairo\) contains files shared from another project (adjuster.vcxproj, arc.vcxproj, ask.vcxproj, bitmap.vcxproj, blocks.vcxproj, boxtype.vcxproj, browser.vcxproj, button.vcxproj, buttons.vcxproj, checkers.vcxproj, clock.vcxproj, colbrowser.vcxproj, color_chooser.vcxproj, cube.vcxproj, cursor.vcxproj, curve.vcxproj, device.vcxproj, doublebuffer.vcxproj, file_chooser.vcxproj, fltk.vcxproj, fltkdll.vcxproj, fltkforms.vcxproj, fltkgl.vcxproj, fltkimages.vcxproj, fltkjpeg.vcxproj, fltkpng.vcxproj, fonts.vcxproj, forms.vcxproj, fractals.vcxproj, fullscreen.vcxproj, glpuzzle.vcxproj, gl_overlay.vcxproj, hello.vcxproj, help.vcxproj, iconize.vcxproj, image.vcxproj, input.vcxproj, input_choice.vcxproj, label.vcxproj, line_style.vcxproj, menubar.vcxproj, message.vcxproj, minimum.vcxproj, native-filechooser.vcxproj, navigation.vcxproj, output.vcxproj, overlay.vcxproj, pack.vcxproj, pixmap.vcxproj, pixmap_browser.vcxproj, resizebox.vcxproj, rotated_text.vcxproj, scroll.vcxproj, shape.vcxproj, subwindow.vcxproj, sudoku.vcxproj, symbols.vcxproj, table.vcxproj, threads.vcxproj, tile.vcxproj, tiled_image.vcxproj, utf8.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  about_panel.cxx
+  align_widget.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  alignment_panel.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  code.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  CodeEditor.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  ExternalCodeEditor_WIN32.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  factory.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  file.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  Fl_Function_Type.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  Fl_Group_Type.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  Fl_Menu_Type.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  Fl_Type.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  Fl_Widget_Type.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  Fl_Window_Type.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  fluid.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  Fluid_Image.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  function_panel.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  template_panel.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  undo.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  widget_panel.cxx
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory
+  正在產生程式碼...
+D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\FL\Fl_Cairo.H(32,11): fatal error C1083: 無法開啟包含檔案: 'cairo.h': No such file or directory

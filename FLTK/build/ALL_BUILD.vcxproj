@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7F33473B-8836-36B2-AD0B-7CE293A9273E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\maochinn\Lib\FLTK\build;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\zlib;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\jpeg;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\png;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\maochinn\Lib\FLTK\build;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\zlib;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\jpeg;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\png;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\maochinn\Lib\FLTK\build;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\zlib;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\jpeg;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\png;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\maochinn\Lib\FLTK\build;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\zlib;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\jpeg;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\png;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/maochinn/Lib/FLTK/fltk-1.3.5-source.tar/fltk-1.3.5-source/fltk-1.3.5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\install\CMake\bin\cmake.exe -SD:/maochinn/Lib/FLTK/fltk-1.3.5-source.tar/fltk-1.3.5-source/fltk-1.3.5 -BD:/maochinn/Lib/FLTK/build --check-stamp-file D:/maochinn/Lib/FLTK/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\install\CMake\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeCCompilerABI.c;D:\install\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;D:\install\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeSystem.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c;D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\install\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckTypeSize.c.in;D:\install\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;D:\install\CMake\share\cmake-3.15\Modules\FLTKCompatibility.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindDoxygen.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindOpenGL.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindPkgConfig.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindThreads.cmake;D:\install\CMake\share\cmake-3.15\Modules\GNUInstallDirs.cmake;D:\install\CMake\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\install\CMake\share\cmake-3.15\Modules\TestBigEndian.cmake;D:\install\CMake\share\cmake-3.15\Modules\TestEndianess.c.in;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeCCompiler.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeSystem.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\HAVE_LONG_LONG.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\FLTK-Functions.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\FLTKConfig.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\UseFLTK.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\cmake_uninstall.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\export.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\install.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\macros.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\options.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\resources.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\setup.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\variables.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\abi-version.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\configh.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fltk-config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\maochinn\Lib\FLTK\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/maochinn/Lib/FLTK/fltk-1.3.5-source.tar/fltk-1.3.5-source/fltk-1.3.5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\install\CMake\bin\cmake.exe -SD:/maochinn/Lib/FLTK/fltk-1.3.5-source.tar/fltk-1.3.5-source/fltk-1.3.5 -BD:/maochinn/Lib/FLTK/build --check-stamp-file D:/maochinn/Lib/FLTK/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\install\CMake\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeCCompilerABI.c;D:\install\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;D:\install\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeSystem.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c;D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\install\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckTypeSize.c.in;D:\install\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;D:\install\CMake\share\cmake-3.15\Modules\FLTKCompatibility.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindDoxygen.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindOpenGL.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindPkgConfig.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindThreads.cmake;D:\install\CMake\share\cmake-3.15\Modules\GNUInstallDirs.cmake;D:\install\CMake\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\install\CMake\share\cmake-3.15\Modules\TestBigEndian.cmake;D:\install\CMake\share\cmake-3.15\Modules\TestEndianess.c.in;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeCCompiler.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeSystem.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\HAVE_LONG_LONG.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\FLTK-Functions.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\FLTKConfig.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\UseFLTK.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\cmake_uninstall.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\export.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\install.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\macros.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\options.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\resources.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\setup.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\variables.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\abi-version.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\configh.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fltk-config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\maochinn\Lib\FLTK\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/maochinn/Lib/FLTK/fltk-1.3.5-source.tar/fltk-1.3.5-source/fltk-1.3.5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\install\CMake\bin\cmake.exe -SD:/maochinn/Lib/FLTK/fltk-1.3.5-source.tar/fltk-1.3.5-source/fltk-1.3.5 -BD:/maochinn/Lib/FLTK/build --check-stamp-file D:/maochinn/Lib/FLTK/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\install\CMake\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeCCompilerABI.c;D:\install\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;D:\install\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeSystem.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c;D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\install\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckTypeSize.c.in;D:\install\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;D:\install\CMake\share\cmake-3.15\Modules\FLTKCompatibility.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindDoxygen.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindOpenGL.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindPkgConfig.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindThreads.cmake;D:\install\CMake\share\cmake-3.15\Modules\GNUInstallDirs.cmake;D:\install\CMake\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\install\CMake\share\cmake-3.15\Modules\TestBigEndian.cmake;D:\install\CMake\share\cmake-3.15\Modules\TestEndianess.c.in;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeCCompiler.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeSystem.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\HAVE_LONG_LONG.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\FLTK-Functions.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\FLTKConfig.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\UseFLTK.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\cmake_uninstall.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\export.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\install.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\macros.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\options.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\resources.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\setup.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\variables.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\abi-version.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\configh.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fltk-config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\maochinn\Lib\FLTK\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/maochinn/Lib/FLTK/fltk-1.3.5-source.tar/fltk-1.3.5-source/fltk-1.3.5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\install\CMake\bin\cmake.exe -SD:/maochinn/Lib/FLTK/fltk-1.3.5-source.tar/fltk-1.3.5-source/fltk-1.3.5 -BD:/maochinn/Lib/FLTK/build --check-stamp-file D:/maochinn/Lib/FLTK/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\install\CMake\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeCCompilerABI.c;D:\install\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;D:\install\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeSystem.cmake.in;D:\install\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;D:\install\CMake\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c;D:\install\CMake\share\cmake-3.15\Modules\CheckFunctionExists.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\install\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\install\CMake\share\cmake-3.15\Modules\CheckTypeSize.c.in;D:\install\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\install\CMake\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;D:\install\CMake\share\cmake-3.15\Modules\FLTKCompatibility.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindDoxygen.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindOpenGL.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindPkgConfig.cmake;D:\install\CMake\share\cmake-3.15\Modules\FindThreads.cmake;D:\install\CMake\share\cmake-3.15\Modules\GNUInstallDirs.cmake;D:\install\CMake\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\install\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\install\CMake\share\cmake-3.15\Modules\TestBigEndian.cmake;D:\install\CMake\share\cmake-3.15\Modules\TestEndianess.c.in;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeCCompiler.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\3.15.2\CMakeSystem.cmake;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\HAVE_LONG_LONG.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;D:\maochinn\Lib\FLTK\build\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\FLTK-Functions.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\FLTKConfig.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\UseFLTK.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\cmake_uninstall.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\export.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\install.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\macros.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\options.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\resources.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\setup.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\CMake\variables.cmake;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\abi-version.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\configh.cmake.in;D:\maochinn\Lib\FLTK\fltk-1.3.5-source.tar\fltk-1.3.5-source\fltk-1.3.5\fltk-config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\maochinn\Lib\FLTK\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\ZERO_CHECK.vcxproj">
+      <Project>{D21451C2-DD89-3008-8E7F-F79A4248C81B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\CubeView.vcxproj">
+      <Project>{6617DFCF-C8E4-33DF-BBAF-1890BA48623A}</Project>
+      <Name>CubeView</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\adjuster.vcxproj">
+      <Project>{5A94106A-2B3A-3153-AF3A-E5CE61E3B1CD}</Project>
+      <Name>adjuster</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\animated.vcxproj">
+      <Project>{A3834AA3-4FA9-3F12-995E-4BB3ECD270FE}</Project>
+      <Name>animated</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\arc.vcxproj">
+      <Project>{E57A5430-A140-3E0A-8F31-CCB0067F98EA}</Project>
+      <Name>arc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\ask.vcxproj">
+      <Project>{780BCAD6-04F4-3D65-AB86-30150266F29C}</Project>
+      <Name>ask</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\bitmap.vcxproj">
+      <Project>{B2304B22-2545-35CE-8AF8-62E938476ACA}</Project>
+      <Name>bitmap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\blocks.vcxproj">
+      <Project>{23A5FA58-8319-32C1-BCBA-3B110297C1C1}</Project>
+      <Name>blocks</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\boxtype.vcxproj">
+      <Project>{BD38379B-2858-39F9-9229-DD7DC63B84D7}</Project>
+      <Name>boxtype</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\browser.vcxproj">
+      <Project>{42258F4D-553A-31CA-B87B-A12E8F45120F}</Project>
+      <Name>browser</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\button.vcxproj">
+      <Project>{D5962B9F-DD95-3254-87AB-85666267DEA7}</Project>
+      <Name>button</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\buttons.vcxproj">
+      <Project>{595178AB-D659-3E6E-B214-AF38DA0BBB0B}</Project>
+      <Name>buttons</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\checkers.vcxproj">
+      <Project>{50BD433A-C1DC-3A3C-B7A8-55DF086A7B4B}</Project>
+      <Name>checkers</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\clock.vcxproj">
+      <Project>{55FC3042-E192-3DA3-A3AD-70654AB67B54}</Project>
+      <Name>clock</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\colbrowser.vcxproj">
+      <Project>{F87EB805-F73F-349D-B1ED-CB2C1E777D00}</Project>
+      <Name>colbrowser</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\color_chooser.vcxproj">
+      <Project>{B248A27F-B7E3-344D-BFE2-C5DF8FA6997B}</Project>
+      <Name>color_chooser</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\cube.vcxproj">
+      <Project>{40D43B4C-6982-3512-A721-E6C791830591}</Project>
+      <Name>cube</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\cursor.vcxproj">
+      <Project>{88212A79-19E3-3FCF-9D7F-B9D3F180D509}</Project>
+      <Name>cursor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\curve.vcxproj">
+      <Project>{4915D229-FD6F-31CC-8C3D-B22F4E99CA03}</Project>
+      <Name>curve</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\demo.vcxproj">
+      <Project>{AEF88F3D-6917-3621-B216-DCFDCF49BC62}</Project>
+      <Name>demo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\device.vcxproj">
+      <Project>{3C29CA79-1BA4-3520-9EC3-909A35124635}</Project>
+      <Name>device</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\doublebuffer.vcxproj">
+      <Project>{541B5250-F78B-3E05-9123-BB48A14E2AA1}</Project>
+      <Name>doublebuffer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\editor.vcxproj">
+      <Project>{B7A367BD-6B98-3886-9CB6-66C40F315124}</Project>
+      <Name>editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\fast_slow.vcxproj">
+      <Project>{6442E610-814B-325E-8A53-DCA3EB73D90E}</Project>
+      <Name>fast_slow</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\file_chooser.vcxproj">
+      <Project>{1103B967-DF3C-3E82-B8A3-A1BDA7F24693}</Project>
+      <Name>file_chooser</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\src\fltk.vcxproj">
+      <Project>{58077519-0A58-3077-9F1A-02BF0915FCE2}</Project>
+      <Name>fltk</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\fltk-versions.vcxproj">
+      <Project>{878218A6-E48F-3B19-9777-AEB18EA552D5}</Project>
+      <Name>fltk-versions</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\src\fltk_forms.vcxproj">
+      <Project>{7DB06C65-C750-3269-8388-2D2FC9E75791}</Project>
+      <Name>fltk_forms</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\src\fltk_gl.vcxproj">
+      <Project>{F481DF7A-D57C-3A27-814D-DDB0D8EDDEA5}</Project>
+      <Name>fltk_gl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\src\fltk_images.vcxproj">
+      <Project>{2A07C9AD-842A-379C-80F3-E56DBC3988B4}</Project>
+      <Name>fltk_images</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\jpeg\fltk_jpeg.vcxproj">
+      <Project>{8F96965A-D8E9-379F-AD8B-0231BCF32123}</Project>
+      <Name>fltk_jpeg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\png\fltk_png.vcxproj">
+      <Project>{C87B1168-499A-3E6E-BBBA-889132B2098D}</Project>
+      <Name>fltk_png</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\zlib\fltk_z.vcxproj">
+      <Project>{0EF8BE61-E6A4-322F-B061-47C29C979DDD}</Project>
+      <Name>fltk_z</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\fluid\fluid.vcxproj">
+      <Project>{818E993D-A31A-3056-999A-3EF3036037BB}</Project>
+      <Name>fluid</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\fonts.vcxproj">
+      <Project>{775DBDEA-F438-32E2-9F7D-594C1808639F}</Project>
+      <Name>fonts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\forms.vcxproj">
+      <Project>{D2F68874-E4E1-3CCA-AD59-BCF3B6EF2E5B}</Project>
+      <Name>forms</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\fractals.vcxproj">
+      <Project>{193E2478-9262-396E-AD4A-182D706642C7}</Project>
+      <Name>fractals</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\fullscreen.vcxproj">
+      <Project>{F3061313-EBB5-389F-BD31-E71D685FD14E}</Project>
+      <Name>fullscreen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\gl_overlay.vcxproj">
+      <Project>{F77EC3D1-2F6C-389E-900C-F1FFA4CEDA87}</Project>
+      <Name>gl_overlay</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\glpuzzle.vcxproj">
+      <Project>{06322BE0-4F00-35AE-A28F-5A930C7F87C4}</Project>
+      <Name>glpuzzle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\hello.vcxproj">
+      <Project>{C832DE72-D292-37A0-8737-D6104303E7BD}</Project>
+      <Name>hello</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\icon.vcxproj">
+      <Project>{5892C470-AEAE-37D2-BD81-6F8339F05BED}</Project>
+      <Name>icon</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\iconize.vcxproj">
+      <Project>{A6C4A143-0DFB-35D1-9729-D42BDBCFFEC4}</Project>
+      <Name>iconize</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\image.vcxproj">
+      <Project>{4D2D79D9-6446-3E13-A9AC-0A96677D2BF7}</Project>
+      <Name>image</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\inactive.vcxproj">
+      <Project>{6F3E7B50-6F25-329A-81C9-63D6440150DF}</Project>
+      <Name>inactive</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\input.vcxproj">
+      <Project>{33E73D37-BD96-3DBB-9ADB-A5502CED443A}</Project>
+      <Name>input</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\input_choice.vcxproj">
+      <Project>{832F1201-A9BE-3F43-8469-B06D7D2696E8}</Project>
+      <Name>input_choice</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\keyboard.vcxproj">
+      <Project>{708AD6F8-BCBC-3291-8898-B8723F21F6C0}</Project>
+      <Name>keyboard</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\label.vcxproj">
+      <Project>{8493758F-D823-3149-9631-E3DFE1F18264}</Project>
+      <Name>label</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\line_style.vcxproj">
+      <Project>{0A384FFF-3AA2-3AE2-8930-DD8994DB6034}</Project>
+      <Name>line_style</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\list_visuals.vcxproj">
+      <Project>{08F4A879-AE57-3778-A171-6E4EE8A6AEC5}</Project>
+      <Name>list_visuals</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\mandelbrot.vcxproj">
+      <Project>{995244C7-26A7-331E-9C7C-3BC355491346}</Project>
+      <Name>mandelbrot</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\menubar.vcxproj">
+      <Project>{CCCEC8D8-C888-3572-BE5B-19B4D4C3162B}</Project>
+      <Name>menubar</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\message.vcxproj">
+      <Project>{03213127-EF36-3314-83E7-38648D197DFA}</Project>
+      <Name>message</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\minimum.vcxproj">
+      <Project>{571496F1-8FAF-3DFE-BC61-01CE983C7449}</Project>
+      <Name>minimum</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\native-filechooser.vcxproj">
+      <Project>{23A68DFB-80CB-3553-B754-50D385BC5508}</Project>
+      <Name>native-filechooser</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\navigation.vcxproj">
+      <Project>{86BF5C50-5DE0-38F6-A206-2C1B6C96D7E7}</Project>
+      <Name>navigation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\offscreen.vcxproj">
+      <Project>{C6A43375-048F-39AF-9B1A-C5A70CCE7155}</Project>
+      <Name>offscreen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\output.vcxproj">
+      <Project>{DE1006BE-ACA2-3F95-8E87-64DC7899A195}</Project>
+      <Name>output</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\overlay.vcxproj">
+      <Project>{6E55195D-806F-336A-BB69-8E1926CA1186}</Project>
+      <Name>overlay</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\pack.vcxproj">
+      <Project>{70E48116-5C0D-3670-9565-8B0B70CA58CB}</Project>
+      <Name>pack</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\pixmap.vcxproj">
+      <Project>{C75D104F-01A6-32EB-8868-94FBC4EFD4F6}</Project>
+      <Name>pixmap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\pixmap_browser.vcxproj">
+      <Project>{634B52E1-2BD4-323F-9B23-3504C9654AC4}</Project>
+      <Name>pixmap_browser</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\preferences.vcxproj">
+      <Project>{C7AFA5CC-C037-332C-86D6-3C750F72808B}</Project>
+      <Name>preferences</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\radio.vcxproj">
+      <Project>{27A1A529-038F-3614-BBB8-685C46A211EA}</Project>
+      <Name>radio</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\resize.vcxproj">
+      <Project>{3C81F449-8E26-36E7-95D3-D616561AA299}</Project>
+      <Name>resize</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\resizebox.vcxproj">
+      <Project>{923BF859-88E4-3AE6-8BDB-6DA94CF6C0DD}</Project>
+      <Name>resizebox</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\rotated_text.vcxproj">
+      <Project>{C4E8D831-82D7-323F-83BC-15496E8B8E16}</Project>
+      <Name>rotated_text</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\scroll.vcxproj">
+      <Project>{E5721153-A26C-3265-9596-DFA8EB752604}</Project>
+      <Name>scroll</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\shape.vcxproj">
+      <Project>{5E7AE49C-80BF-37B3-901B-AF30EF6E8539}</Project>
+      <Name>shape</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\subwindow.vcxproj">
+      <Project>{7CB99C4B-72E6-3FB0-A5AC-00659338B49F}</Project>
+      <Name>subwindow</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\sudoku.vcxproj">
+      <Project>{48657BE1-6CEA-3142-9039-B524ACEF2F7B}</Project>
+      <Name>sudoku</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\symbols.vcxproj">
+      <Project>{5E13334A-2661-3551-8E73-0A7390312C8E}</Project>
+      <Name>symbols</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\table.vcxproj">
+      <Project>{6EB80E48-1AEE-35B5-9090-7C2AAE770295}</Project>
+      <Name>table</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\tabs.vcxproj">
+      <Project>{102EF1BA-E771-316D-BDBC-212CF8CEB5E2}</Project>
+      <Name>tabs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\test_help.vcxproj">
+      <Project>{3F3F07FD-0651-3714-9F42-BB22F3EF4322}</Project>
+      <Name>test_help</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\threads.vcxproj">
+      <Project>{61D47661-9277-3CCF-A90A-54E8B10C53F6}</Project>
+      <Name>threads</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\tile.vcxproj">
+      <Project>{C554B34C-A7AE-349E-A759-ADC4A7504103}</Project>
+      <Name>tile</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\tiled_image.vcxproj">
+      <Project>{67F8A295-0C3C-3B30-8CC6-FDAACDAA1BB5}</Project>
+      <Name>tiled_image</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\tree.vcxproj">
+      <Project>{3A6466BB-8E17-3F09-A168-79BA7EE7E7BE}</Project>
+      <Name>tree</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\twowin.vcxproj">
+      <Project>{DFFE3919-1A0E-3242-9967-1F7906715B5E}</Project>
+      <Name>twowin</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\unittests.vcxproj">
+      <Project>{C47EB582-82CA-37A2-9D8B-1602BFFA71C7}</Project>
+      <Name>unittests</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\utf8.vcxproj">
+      <Project>{11641087-5C20-3201-94C3-DA763D3EA7BF}</Project>
+      <Name>utf8</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\valuators.vcxproj">
+      <Project>{210B6777-7DF4-39C1-8463-BFDC2826BB38}</Project>
+      <Name>valuators</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\maochinn\Lib\FLTK\build\test\windowfocus.vcxproj">
+      <Project>{875366D5-2225-3151-9E79-A1EFF18A87BA}</Project>
+      <Name>windowfocus</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
