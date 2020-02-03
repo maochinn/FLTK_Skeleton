@@ -30,6 +30,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Codes\Globals.h" />
+    <ClInclude Include="Codes\Header.h" />
     <ClInclude Include="Codes\ImageWidget.h" />
     <ClInclude Include="Codes\libtarga.h" />
     <ClInclude Include="Codes\ScriptHandler.h" />
@@ -87,11 +88,11 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\maochinn\Lib\FLTK\build\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\maochinn\Lib\FLTK\build\include;D:\maochinn\Lib\glm-0.9.8.5\glm;$(IncludePath)</IncludePath>
     <LibraryPath>D:\maochinn\Lib\FLTK\build\lib\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>D:\maochinn\Lib\FLTK\build\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\maochinn\Lib\FLTK\build\include;D:\maochinn\Lib\glm-0.9.8.5\glm;$(IncludePath)</IncludePath>
     <LibraryPath>D:\maochinn\Lib\FLTK\build\lib\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -107,7 +108,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>Level1</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>false</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
@@ -135,7 +136,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>Level1</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>

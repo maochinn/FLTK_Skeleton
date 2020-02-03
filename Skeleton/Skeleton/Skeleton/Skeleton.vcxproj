@@ -73,11 +73,11 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\maochinn\Lib\FLTK\build\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\maochinn\Lib\FLTK\build\include;D:\maochinn\Lib\glm-0.9.8.5\glm;$(IncludePath)</IncludePath>
     <LibraryPath>D:\maochinn\Lib\FLTK\build\lib\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>D:\maochinn\Lib\FLTK\build\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\maochinn\Lib\FLTK\build\include;D:\maochinn\Lib\glm-0.9.8.5\glm;$(IncludePath)</IncludePath>
     <LibraryPath>D:\maochinn\Lib\FLTK\build\lib\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">

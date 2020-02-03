@@ -9,12 +9,16 @@
 //
 ///////////////////////////////////////////////////////////////////////////////
 
-#ifndef _TARGA_IMAGE_H_
-#define _TARGA_IMAGE_H_
+//Modified:		Maochinn
+//Date:			Winter 2020
+
+#pragma once
+//#include <glm/glm.hpp>
 
 #include <Fl/Fl.h>
 #include <Fl/Fl_Widget.h>
 #include <stdio.h>
+
 
 class Stroke;
 class DistanceImage;
@@ -71,8 +75,10 @@ class TargaImage
     private:
 	// helper function for format conversion
         void RGBA_To_RGB(unsigned char *rgba, unsigned char *rgb);
+		//void unsignedCharToFloat(unsigned char* u_rgba, glm::vec4* f_rgba);
+		//void floatToUnsignedChar(glm::vec4* f_rgba, unsigned char* u_rgba);
 
-        // reverse the rows of the image, some targas are stored bottom to top
+    // reverse the rows of the image, some targas are stored bottom to top
 	TargaImage* Reverse_Rows(void);
 
 	// clear image to all black
@@ -89,7 +95,8 @@ class TargaImage
 
 };
 
-class Stroke { // Data structure for holding painterly strokes.
+class Stroke 
+{ // Data structure for holding painterly strokes.
 public:
    Stroke(void);
    Stroke(unsigned int radius, unsigned int x, unsigned int y,
@@ -99,8 +106,3 @@ public:
    unsigned int radius, x, y;	// Location for the stroke
    unsigned char r, g, b, a;	// Color
 };
-
-
-#endif
-
-

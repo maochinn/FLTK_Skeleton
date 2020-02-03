@@ -19,10 +19,10 @@
 #include <string.h>
 #include <iostream>
 #include <vector>
-#include "TargaImage.h"
+
 #include "ImageWidget.h"
 #include "ScriptHandler.h"
-
+#include "TargaImage.h"
 
 using namespace std;
 
@@ -43,7 +43,7 @@ std::vector<char*>  vsStudentNames;
 void MakeNames()
 {
     // ************ ADD YOUR NAME HERE ****************************************
-    //vsStudentNames.push_back("Your name here!");
+    vsStudentNames.push_back((char*)"Your name here!");
 }// MakeNames
 
 
@@ -79,6 +79,11 @@ static int Arg_Callback(int argc, char *argv[], int &i)
 int main(int argc, char *argv[])
 {
     int script_arg;
+
+	argc = 3;
+	argv[0] = (char*)c_sNames;
+	argv[1] = (char*)c_sHeadless;
+	argv[2] = (char*)"Script/sample.script";
 
     // Do argument processing. At the end of this, script_arg contains
     // the first non-switch argument, which if not 0 or argc is the

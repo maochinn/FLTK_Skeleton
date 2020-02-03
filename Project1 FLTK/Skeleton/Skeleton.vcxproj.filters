@@ -47,6 +47,9 @@
     <ClInclude Include="Codes\ScriptHandler.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="Codes\Header.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Codes\Globals.inl">

@@ -1,0 +1,4 @@
+load Images/wiz.tga
+npr-paint
+save Images/new_image.tga
+
